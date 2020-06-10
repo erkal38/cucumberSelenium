@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186dada7-8e13-438b-8f48-e5ed5ba76ba4" name="Default Changelist" comment="" />
+    <list default="true" id="186dada7-8e13-438b-8f48-e5ed5ba76ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vytrack.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vytrack.runners.CukesRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vytrack.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vytrack.runners.CukesRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,17 +42,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1cg8RJZP4ibYFqMF2NmvU9x8WDv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,7 +62,7 @@
       <recent name="C:\Users\Ergün\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FailedTestRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU2CucumberSelenium" />
       <extension name="coverage">
@@ -56,8 +78,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU2CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -80,45 +118,49 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Project_Structure/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590941073555" />
-    <state width="1322" height="242" key="GridCell.Tab.0.bottom" timestamp="1591391796948">
+    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1591727951446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591727951446" />
+    <state width="1322" height="242" key="GridCell.Tab.0.bottom" timestamp="1591751411773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
-    <state width="1322" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591391796948" />
-    <state width="1322" height="242" key="GridCell.Tab.0.center" timestamp="1591391796948">
+    <state width="1322" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
+    <state width="1322" height="242" key="GridCell.Tab.0.center" timestamp="1591751411773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
-    <state width="1322" height="242" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591391796948" />
-    <state width="1322" height="242" key="GridCell.Tab.0.left" timestamp="1591391796948">
+    <state width="1322" height="242" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
+    <state width="1322" height="242" key="GridCell.Tab.0.left" timestamp="1591751411773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
-    <state width="1322" height="242" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591391796948" />
-    <state width="1322" height="242" key="GridCell.Tab.0.right" timestamp="1591391796948">
+    <state width="1322" height="242" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
+    <state width="1322" height="242" key="GridCell.Tab.0.right" timestamp="1591751411773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
-    <state width="1322" height="242" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591391796948" />
+    <state width="1322" height="242" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
     <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1591388722610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591388722610" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1591271930955">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1591706202908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591271930955" />
-    <state x="390" y="120" width="585" height="488" key="find.popup" timestamp="1591540093341">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591706202908" />
+    <state x="390" y="120" width="585" height="488" key="find.popup" timestamp="1591744604521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591540093341" />
+    <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591744604521" />
     <state x="65" y="69" key="new project wizard" timestamp="1591442316653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="69" key="new project wizard/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591442316653" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591384353405">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591706183672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591384353405" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591706183672" />
   </component>
 </project>

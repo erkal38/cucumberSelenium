@@ -18,7 +18,6 @@ Feature: Contacts Page
         | Customers  |
         | Activities |
         | System     |
-     @wip
      Scenario: login as a given user
        Given the user is on the login page
        When the user should use following credentials
