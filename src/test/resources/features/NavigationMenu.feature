@@ -11,7 +11,7 @@ Feature: Navigation Menu
      When the user enter the sales manager information
      Then the user navigates Marketing, Campaigns
      Then the title should be Campaigns
-
+  @smoke
   Scenario: Navigating Activities--Calendar Events
     Given the user is on the login page
     When the user enter the sales manager information
