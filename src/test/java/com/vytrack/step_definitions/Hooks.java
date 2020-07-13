@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
+    //test final
     @Before
     public void setUp(){
         System.out.println("\tthis is coming from Before");

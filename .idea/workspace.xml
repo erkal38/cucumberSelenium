@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186dada7-8e13-438b-8f48-e5ed5ba76ba4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="186dada7-8e13-438b-8f48-e5ed5ba76ba4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,10 +114,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" key="#Project_Structure/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590941073555" />
-    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1591779346512">
+    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1594656962212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591779346512" />
+    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594656962212" />
     <state width="1322" height="242" key="GridCell.Tab.0.bottom" timestamp="1591751411773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
