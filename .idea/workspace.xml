@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186dada7-8e13-438b-8f48-e5ed5ba76ba4" name="Default Changelist" comment="" />
+    <list default="true" id="186dada7-8e13-438b-8f48-e5ed5ba76ba4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Driver.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +55,7 @@
       <recent name="C:\Users\Ergün\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FailedTestRunner">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU2CucumberSelenium" />
       <extension name="coverage">
@@ -79,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591779348686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cucumber update">
+      <created>1594657053464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594657053464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,26 +135,30 @@
     </state>
     <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591779346512" />
     <state x="299" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594656962212" />
-    <state width="1322" height="242" key="GridCell.Tab.0.bottom" timestamp="1591751411773">
+    <state width="1322" height="240" key="GridCell.Tab.0.bottom" timestamp="1594841871932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
     <state width="1322" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
-    <state width="1322" height="242" key="GridCell.Tab.0.center" timestamp="1591751411773">
+    <state width="1322" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594841871932" />
+    <state width="1322" height="240" key="GridCell.Tab.0.center" timestamp="1594841871932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
     <state width="1322" height="242" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
-    <state width="1322" height="242" key="GridCell.Tab.0.left" timestamp="1591751411773">
+    <state width="1322" height="240" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594841871932" />
+    <state width="1322" height="240" key="GridCell.Tab.0.left" timestamp="1594841871932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
     <state width="1322" height="242" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
-    <state width="1322" height="242" key="GridCell.Tab.0.right" timestamp="1591751411773">
+    <state width="1322" height="240" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594841871932" />
+    <state width="1322" height="240" key="GridCell.Tab.0.right" timestamp="1594841871932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="278" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591195325183" />
     <state width="1322" height="242" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591751411773" />
+    <state width="1322" height="240" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594841871932" />
     <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1591388722610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -155,13 +175,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591744604521" />
-    <state x="65" y="69" key="new project wizard" timestamp="1591442316653">
+    <state x="65" y="69" key="new project wizard" timestamp="1595370850500">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="69" key="new project wizard/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591442316653" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591706183672">
+    <state x="65" y="69" key="new project wizard/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595370850500" />
+    <state x="340" y="160" key="run.anything.popup" timestamp="1594657256102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="340" y="160" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594657256102" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594657324356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1591706183672" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1594657324356" />
   </component>
 </project>

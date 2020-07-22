@@ -1,13 +1,74 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountsTypes.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountTypes.feature");
 formatter.feature({
-  "name": "Accounts types",
+  "name": "Account Types",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "Driver user",
+formatter.scenarioOutline({
+  "name": "Login with different accounts",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@wip"
+    }
+  ]
+});
+formatter.step({
+  "name": "the user logged in as \"\u003cuserType\u003e\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "the user navigates \"\u003ctab\u003e\" \"\u003cmodule\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "the title contains \"\u003ctitle\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "userType",
+        "tab",
+        "module",
+        "title"
+      ]
+    },
+    {
+      "cells": [
+        "driver",
+        "Activities",
+        "Calendar Events",
+        "Calendar Events - Activities"
+      ]
+    },
+    {
+      "cells": [
+        "sales manager",
+        "Customers",
+        "Accounts",
+        "Accounts - Customers"
+      ]
+    },
+    {
+      "cells": [
+        "store manager",
+        "Customers",
+        "Contacts",
+        "Contacts - Customers"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Login with different accounts",
+  "description": "",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@wip"
@@ -51,9 +112,9 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Sales manager user",
+  "name": "Login with different accounts",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@wip"
@@ -84,14 +145,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the title contains \"Accounts - CustomersS\"",
+  "name": "the title contains \"Accounts - Customers\"",
   "keyword": "Then "
 });
 formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: Actual title:Accounts - Customers\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.vytrack.step_definitions.LoginStepDefs.the_title_contains(LoginStepDefs.java:61)\r\n\tat ✽.the title contains \"Accounts - CustomersS\"(file:///C:/Users/Ergün/IdeaProjects/EU2CucumberSelenium/src/test/resources/features/AccountsTypes.feature:11)\r\n",
+  "error_message": "java.lang.AssertionError: Actual title:Dashboard\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.vytrack.step_definitions.LoginStepDefs.the_title_contains(LoginStepDefs.java:61)\r\n\tat ✽.the title contains \"Accounts - Customers\"(file:///C:/Users/Ergün/IdeaProjects/EU2CucumberSelenium/src/test/resources/features/AccountTypes.feature:22)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png", "screenshot");
@@ -99,9 +160,9 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Store manager user",
+  "name": "Login with different accounts",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@wip"
@@ -139,8 +200,10 @@ formatter.match({
   "location": "com.vytrack.step_definitions.LoginStepDefs.the_title_contains(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: Actual title:Dashboard\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat com.vytrack.step_definitions.LoginStepDefs.the_title_contains(LoginStepDefs.java:61)\r\n\tat ✽.the title contains \"Contacts - Customers\"(file:///C:/Users/Ergün/IdeaProjects/EU2CucumberSelenium/src/test/resources/features/AccountTypes.feature:22)\r\n",
+  "status": "failed"
 });
+formatter.embedding("image/png", "embedded1.png", "screenshot");
 formatter.after({
   "status": "passed"
 });
