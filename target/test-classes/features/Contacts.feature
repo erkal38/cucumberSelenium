@@ -10,7 +10,7 @@ Feature: Contacts Page
     Given the user is on the login page
     And the user enter the sales manager information
     When the user navigates "Activities" "Calendar Events"
-
+@smoke
   Scenario: Menu Options
     Given the user logged in as "driver"
     When the user should see following options
